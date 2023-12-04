@@ -7,7 +7,7 @@
 
 while (true)
 {
-   System.Console.WriteLine("введите целое число от 10 до 100:  ");
+   System.Console.WriteLine("введите целое число:  ");
    string N = Console.ReadLine();
    if (N == "q") 
    break; 
@@ -27,7 +27,7 @@ while (true)
    }
    else
    {
-      System.Console.WriteLine("ошибка, введите целое число от 10 до 100:");
+      System.Console.WriteLine("ошибка, введите целое число:");
    }
    
 }
